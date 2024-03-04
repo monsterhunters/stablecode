@@ -50,6 +50,9 @@ def installFacechain():
 
 def installRoop():
         os.system('git clone https://github.com/s0md3v/sd-webui-roop')
+
+def installDreambooth():
+        os.system('https://github.com/d8ahazard/sd_dreambooth_extension.git')
       
 def installExt():
         os.system('git clone https://github.com/aigc-apps/sd-webui-EasyPhoto.git')
