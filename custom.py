@@ -83,5 +83,6 @@ def installExt():
         os.system('git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git')
         os.system('git clone https://github.com/thygate/stable-diffusion-webui-depthmap-script.git')
         os.system('git clone https://github.com/DominikDoom/a1111-sd-webui-tagcomplete.git')
+        os.system('git clone https://github.com/Tsukreya/Umi-AI-Wildcards.git')
       
 
