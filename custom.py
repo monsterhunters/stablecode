@@ -66,6 +66,9 @@ def layerDiffusion():
 def easyPhoto():
         os.system('git clone https://github.com/aigc-apps/sd-webui-EasyPhoto.git')
 
+def UmiAI():
+        os.system('git clone https://github.com/Tsukreya/Umi-AI-Wildcards.git')
+
 def installExt():        
         os.system('git clone https://github.com/Scholar01/sd-webui-mov2mov.git')
         os.system('git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards.git')
@@ -83,6 +86,6 @@ def installExt():
         os.system('git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git')
         os.system('git clone https://github.com/thygate/stable-diffusion-webui-depthmap-script.git')
         os.system('git clone https://github.com/DominikDoom/a1111-sd-webui-tagcomplete.git')
-        os.system('git clone https://github.com/Tsukreya/Umi-AI-Wildcards.git')
+
       
 
