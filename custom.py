@@ -66,7 +66,7 @@ def layerDiffusion():
 def easyPhoto():
         os.system('git clone https://github.com/aigc-apps/sd-webui-EasyPhoto.git')
 
-def UmiAI():
+def umiAI():
         os.system('git clone https://github.com/Tsukreya/Umi-AI-Wildcards.git')
 
 def installExt():        
