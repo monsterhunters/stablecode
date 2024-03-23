@@ -69,6 +69,9 @@ def easyPhoto():
 def umiAI():
         os.system('git clone https://github.com/Tsukreya/Umi-AI-Wildcards.git')
 
+def inpaintAnything():
+        os.system('git clone https://github.com/geekyutao/Inpaint-Anything')
+
 def installExt():        
         os.system('git clone https://github.com/Scholar01/sd-webui-mov2mov.git')
         os.system('git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards.git')
