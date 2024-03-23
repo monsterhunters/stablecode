@@ -75,6 +75,9 @@ def inpaintAnything():
 def removeBg():
         os.system('git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg')
 
+def freeU():
+        os.system('git clone https://github.com/ljleb/sd-webui-freeu')
+
 def installExt():        
         os.system('git clone https://github.com/Scholar01/sd-webui-mov2mov.git')
         os.system('git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards.git')
