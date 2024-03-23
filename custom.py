@@ -72,6 +72,9 @@ def umiAI():
 def inpaintAnything():
         os.system('git clone https://github.com/geekyutao/Inpaint-Anything')
 
+def removeBg():
+        os.system('git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg')
+
 def installExt():        
         os.system('git clone https://github.com/Scholar01/sd-webui-mov2mov.git')
         os.system('git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards.git')
