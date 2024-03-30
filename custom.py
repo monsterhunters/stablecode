@@ -78,13 +78,15 @@ def removeBg():
 def freeU():
         os.system('git clone https://github.com/ljleb/sd-webui-freeu')
 
+def installAdetailer():  
+        os.system('git clone https://github.com/Bing-su/adetailer.git')
+
 def installExt():        
         os.system('git clone https://github.com/Scholar01/sd-webui-mov2mov.git')
         os.system('git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards.git')
         os.system('git clone https://github.com/CiaraStrawberry/TemporalKit')
         os.system('git clone https://github.com/huchenlei/sd-webui-openpose-editor.git')
-        os.system('git clone https://github.com/continue-revolution/sd-webui-segment-anything.git')
-        os.system('git clone https://github.com/Bing-su/adetailer.git')
+        os.system('git clone https://github.com/continue-revolution/sd-webui-segment-anything.git')        
         os.system('git clone https://github.com/Physton/sd-webui-prompt-all-in-one')
         os.system('git clone https://github.com/zanllp/sd-webui-infinite-image-browsing.git')
         os.system('git clone https://github.com/v8hid/infinite-zoom-automatic1111-webui.git')
