@@ -83,9 +83,7 @@ def installAdetailer():
 
 def installExt():        
         os.system('git clone https://github.com/Scholar01/sd-webui-mov2mov.git')
-        os.system('git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards.git')
         os.system('git clone https://github.com/CiaraStrawberry/TemporalKit')
-        os.system('git clone https://github.com/huchenlei/sd-webui-openpose-editor.git')
         os.system('git clone https://github.com/continue-revolution/sd-webui-segment-anything.git')        
         os.system('git clone https://github.com/Physton/sd-webui-prompt-all-in-one')
         os.system('git clone https://github.com/zanllp/sd-webui-infinite-image-browsing.git')
@@ -94,9 +92,10 @@ def installExt():
         os.system('git clone https://github.com/s9roll7/ebsynth_utility.git')
         os.system('git clone https://github.com/fkunn1326/openpose-editor.git')
         os.system('git clone https://github.com/mcmonkeyprojects/sd-dynamic-thresholding.git')
-        os.system('git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git')
         os.system('git clone https://github.com/thygate/stable-diffusion-webui-depthmap-script.git')
+
+def installExtB():       
+        os.system('git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards.git')   
+        os.system('git clone https://github.com/fkunn1326/openpose-editor.git')
+        os.system('git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git')
         os.system('git clone https://github.com/DominikDoom/a1111-sd-webui-tagcomplete.git')
-
-      
-
