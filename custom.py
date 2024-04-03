@@ -81,7 +81,7 @@ def freeU():
 def installAdetailer():  
         os.system('git clone https://github.com/Bing-su/adetailer.git')
 
-def installExt():        
+def installExtA():        
         os.system('git clone https://github.com/Scholar01/sd-webui-mov2mov.git')
         os.system('git clone https://github.com/CiaraStrawberry/TemporalKit')
         os.system('git clone https://github.com/continue-revolution/sd-webui-segment-anything.git')        
@@ -90,7 +90,6 @@ def installExt():
         os.system('git clone https://github.com/v8hid/infinite-zoom-automatic1111-webui.git')
         os.system('git clone https://github.com/hako-mikan/sd-webui-regional-prompter.git')
         os.system('git clone https://github.com/s9roll7/ebsynth_utility.git')
-        os.system('git clone https://github.com/fkunn1326/openpose-editor.git')
         os.system('git clone https://github.com/mcmonkeyprojects/sd-dynamic-thresholding.git')
         os.system('git clone https://github.com/thygate/stable-diffusion-webui-depthmap-script.git')
 
