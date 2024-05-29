@@ -80,6 +80,7 @@ def freeU():
 
 def installAdetailer():  
         os.system('git clone -b v24.4.2 https://github.com/Bing-su/adetailer.git')
+        os.system('git clone https://github.com/Bing-su/adetailer.git')
 
 def installExtA():        
         os.system('git clone https://github.com/Scholar01/sd-webui-mov2mov.git')
