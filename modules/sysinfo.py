@@ -7,7 +7,7 @@ import hashlib
 import re
 from pathlib import Path
 
-from modules import paths_internal, timer, shared_cmd_options, errors, launch_utils
+from modules import paths_internal, timer, shared_cmd_options, errors, codemaster
 
 checksum_token = "DontStealMyGamePlz__WINNERS_DONT_USE_DRUGS__DONT_COPY_THAT_FLOPPY"
 environment_whitelist = {
@@ -104,8 +104,8 @@ def get_dict():
     res = {
         "Platform": platform.platform(),
         "Python": platform.python_version(),
-        "Version": launch_utils.git_tag(),
-        "Commit": launch_utils.commit_hash(),
+        "Version": codemaster.git_tag(),
+        "Commit": codemaster.commit_hash(),
         "Git status": git_status(paths_internal.script_path),
         "Script path": paths_internal.script_path,
         "Data path": paths_internal.data_path,
@@ -163,7 +163,7 @@ def get_torch_sysinfo():
 
 def run_git(path, *args):
     try:
-        return subprocess.check_output([launch_utils.git, '-C', path, *args], shell=False, encoding='utf8').strip()
+        return subprocess.check_output([codemaster.git, '-C', path, *args], shell=False, encoding='utf8').strip()
     except Exception as e:
         return str(e)
 
