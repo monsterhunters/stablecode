@@ -99,3 +99,10 @@ def installExtB():
         os.system('git clone https://github.com/fkunn1326/openpose-editor.git')
         os.system('git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git')
         os.system('git clone https://github.com/DominikDoom/a1111-sd-webui-tagcomplete.git')
+
+def installsdforge():
+        os.system('git clone https://github.com/Physton/sd-webui-prompt-all-in-one')
+        os.system('git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards.git')   
+        os.system('git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git')
+        os.system('git clone https://github.com/DominikDoom/a1111-sd-webui-tagcomplete.git')
+        os.system('git clone https://github.com/hinablue/sd-forge-adetailer.git')
