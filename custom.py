@@ -78,6 +78,9 @@ def removeBg():
 def freeU():
         os.system('git clone https://github.com/ljleb/sd-webui-freeu')
 
+def downloader():
+        os.system('git clone https://github.com/monsterhunters/civitai_downloader')
+
 def installAdetailer():  
         #os.system('git clone -b v24.4.2 https://github.com/Bing-su/adetailer.git')
         os.system('git clone https://github.com/Bing-su/adetailer.git')
