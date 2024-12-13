@@ -1,7 +1,7 @@
 import os
 
 def installAnimateDiff():
-      os.system('git clone https://github.com/continue-revolution/sd-webui-animatediff.git')
+      os.system('git clone https://github.com/continue-revolution/sd-webui-animatediff')
 
 def installtext2video():
       os.system('git clone https://github.com/kabachuha/sd-webui-text2video')
