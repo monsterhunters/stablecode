@@ -86,7 +86,7 @@ def installAdetailer():
         os.system('git clone https://github.com/Bing-su/adetailer.git')
 
 def installDPrompts():
-        os.system('https://github.com/adieyal/sd-dynamic-prompts.git')
+        os.system('git clone https://github.com/adieyal/sd-dynamic-prompts.git')
 
 def installExtA():        
         os.system('git clone https://github.com/Scholar01/sd-webui-mov2mov.git')
