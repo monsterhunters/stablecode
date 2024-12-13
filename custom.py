@@ -1,13 +1,13 @@
 import os
 
 def installAnimateDiff():
-      os.system('git clone https://github.com/continue-revolution/sd-webui-animatediff')
+      os.system('git clone https://github.com/continue-revolution/sd-webui-animatediff.git')
 
 def installtext2video():
-      os.system('git clone https://github.com/kabachuha/sd-webui-text2video')
+      os.system('git clone https://github.com/kabachuha/sd-webui-text2video.git')
 
 def installReactor():
-      os.system('git clone https://github.com/Gourieff/sd-webui-reactor')
+      os.system('git clone https://github.com/Gourieff/sd-webui-reactor.git')
 
 def installDeforum():
        os.system('git clone https://github.com/deforum-art/sd-webui-deforum.git')
@@ -31,16 +31,16 @@ def ControlNet():
        os.system('git clone https://github.com/Mikubill/sd-webui-controlnet.git')
 
 def installRegionalPrompter():
-       os.system('git clone https://github.com/hako-mikan/sd-webui-regional-prompter')
+       os.system('git clone https://github.com/hako-mikan/sd-webui-regional-prompter.git')
 
 def installUltimateSDUpscale():
-       os.system('git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111')
+       os.system('git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git')
 
 def installOpenPoseEditor():
-       os.system('git clone https://github.com/fkunn1326/openpose-editor')
+       os.system('git clone https://github.com/fkunn1326/openpose-editor.git')
 
 def installADetailer():
-       os.system('git clone https://github.com/Bing-su/adetailer')
+       os.system('git clone https://github.com/Bing-su/adetailer.git')
 
 def installSadtalker():
         os.system('git clone https://github.com/OpenTalker/SadTalker.git')
@@ -49,7 +49,7 @@ def installFacechain():
         os.system('git clone https://github.com/modelscope/facechain.git')
 
 def installRoop():
-        os.system('git clone https://github.com/s0md3v/sd-webui-roop')
+        os.system('git clone https://github.com/s0md3v/sd-webui-roop.git')
 
 def installDreambooth():
         os.system('https://github.com/d8ahazard/sd_dreambooth_extension.git')
@@ -70,16 +70,16 @@ def umiAI():
         os.system('git clone https://github.com/Tsukreya/Umi-AI-Wildcards.git')
 
 def inpaintAnything():
-        os.system('git clone https://github.com/geekyutao/Inpaint-Anything')
+        os.system('git clone https://github.com/geekyutao/Inpaint-Anything.git')
 
 def removeBg():
-        os.system('git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg')
+        os.system('git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg.git')
 
 def freeU():
-        os.system('git clone https://github.com/ljleb/sd-webui-freeu')
+        os.system('git clone https://github.com/ljleb/sd-webui-freeu.git')
 
 def downloader():
-        os.system('git clone https://github.com/monsterhunters/civitai_downloader')
+        os.system('git clone https://github.com/monsterhunters/civitai_downloader.git')
 
 def installAdetailer():  
         #os.system('git clone -b v24.4.2 https://github.com/Bing-su/adetailer.git')
