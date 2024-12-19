@@ -88,6 +88,9 @@ def installAdetailer():
 def installDPrompts():
         os.system('git clone https://github.com/adieyal/sd-dynamic-prompts.git')
 
+def hfupload():
+        os.system('https://github.com/monsterhunters/huggingfaceupload.git')
+
 def installExtA():        
         os.system('git clone https://github.com/Scholar01/sd-webui-mov2mov.git')
         os.system('git clone https://github.com/CiaraStrawberry/TemporalKit')
