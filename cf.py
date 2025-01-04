@@ -10,7 +10,7 @@ def run_command(command):
     return True
 
 # Download cloudflared
-if not run_command("wget https://github.com/cloudflare/cloudflared/releases/download/2024.5.0/cloudflared-fips-linux-amd64.deb"):
+if not run_command("wget https://github.com/cloudflare/cloudflared/releases/download/2024.12.2/cloudflared-fips-linux-amd64.deb"):
     exit(1)
 
 # Install cloudflared
